@@ -3,7 +3,7 @@
     Version: 1.2
     Author: 7oorof
     Devloped by: Ahmed Abdallah (a.abdallah999@gmail.com)
-    Relase Date: November 2019
+    Relase Date: November 2024
     Last Update: April 2020
 ---------------------------*/
 
