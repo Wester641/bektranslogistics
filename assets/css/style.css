@@ -3681,6 +3681,7 @@ textarea.form-control {
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 33px;
+  margin-right: 33px;
 }
 
 .slider .carousel-arrows .owl-nav .owl-prev {
@@ -3965,6 +3966,7 @@ textarea.form-control {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 20px;
+    margin-right: 20px;
   }
 
   .slider .btn {
