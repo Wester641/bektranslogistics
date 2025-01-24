@@ -3262,8 +3262,11 @@ textarea.form-control {
 --------------------------*/
 .footer-top {
   padding-top: 100px;
-  padding-bottom: 71px;
+  /* padding-bottom: 71px; */
   border-top: 1px solid #eaeaea;
+}
+.pb-71 {
+  padding-bottom: 71px;
 }
 
 .footer-top .footer__widget-title {
@@ -4855,7 +4858,7 @@ textarea.form-control {
 .projects-carousel-2 .owl-stage-outer,
 .projects-carousel-3 .owl-stage-outer {
   margin: -15px;
-  padding: 15px;
+  padding: 0px;
 }
 
 .projects-carousel-2 .project-item,
@@ -4879,6 +4882,7 @@ textarea.form-control {
 
 .carousel-tabs .owl-dots {
   text-align: center;
+  display: none;
 }
 
 /* project single */
