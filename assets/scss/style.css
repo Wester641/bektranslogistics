@@ -6001,3 +6001,13 @@ textarea.form-control {
     height: 250px;
   }
 } /*# sourceMappingURL=style.css.map */
+
+/* Privacy Policy */
+
+.privacy-policy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000000;
+}

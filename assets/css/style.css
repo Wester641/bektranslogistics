@@ -7328,3 +7328,43 @@ textarea.form-control {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Privacy Policy */
+.privacy-policy {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.privacy-policy__content .privacy-policy__content_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-bottom: 0;
+}
+
+.content__ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
