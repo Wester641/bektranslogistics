@@ -5,14 +5,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const form = document.querySelector(".request__form-body");
 
-  if (checkbox_radio && submit_button) {
-    let checkbox_value = checkbox_radio.checked;
-    submit_button.disabled = !checkbox_value;
+  // if (checkbox_radio && submit_button) {
+  //   let checkbox_value = checkbox_radio.checked;
+  //   submit_button.disabled = !checkbox_value;
 
-    checkbox_radio.addEventListener("change", function () {
-      submit_button.disabled = !this.checked;
-    });
-  }
+  //   checkbox_radio.addEventListener("change", function () {
+  //     submit_button.disabled = !this.checked;
+  //   });
+  // }
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -53,8 +53,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     form.reset();
 
-    if (submit_button) {
-      submit_button.disabled = true;
-    }
+    // if (submit_button) {
+    //   submit_button.disabled = true;
+    // }
   });
 });
