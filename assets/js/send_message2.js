@@ -31,14 +31,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const contactsForm = document.getElementById("contactForm");
 
-  if (checkbox_radio && submit_button) {
-    let checkbox_value = checkbox_radio.checked;
-    submit_button.disabled = !checkbox_value;
+  // if (checkbox_radio && submit_button) {
+  //   let checkbox_value = checkbox_radio.checked;
+  //   submit_button.disabled = !checkbox_value;
 
-    checkbox_radio.addEventListener("change", function () {
-      submit_button.disabled = !this.checked;
-    });
-  }
+  //   checkbox_radio.addEventListener("change", function () {
+  //     submit_button.disabled = !this.checked;
+  //   });
+  // }
 
   contactsForm.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -79,8 +79,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     contactsForm.reset();
 
-    if (submit_button) {
-      submit_button.disabled = true;
-    }
+    // if (submit_button) {
+    //   submit_button.disabled = true;
+    // }
   });
 });
